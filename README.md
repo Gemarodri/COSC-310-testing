@@ -1,1 +1,1 @@
-# COSC-310-testing
+# TITLE: COSC 310 Testing project
