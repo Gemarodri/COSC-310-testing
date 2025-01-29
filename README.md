@@ -1,1 +1,1 @@
-# TITLE: COSC 310 Testing project
+# COSC 310 Testing project
