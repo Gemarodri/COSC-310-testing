@@ -5,7 +5,7 @@ on:
   push:
     branches:
       - main
-      - releases/*
+      - 12-adding-new-issue
 
 jobs:
   build:
