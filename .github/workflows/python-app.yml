@@ -12,7 +12,7 @@ on:
 permissions:
   contents: read
 
-jobs:
+jobs: Run Tests for calculator.py
   build:
 
     runs-on: ubuntu-latest
