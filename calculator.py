@@ -10,3 +10,6 @@ def multiply(a, b):
     """Returns the product of two numbers."""
     return a * b
 
+def subtract(a, b):
+	""" Returns the subtraction of two number. """
+	return a-b
