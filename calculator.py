@@ -9,3 +9,7 @@ def add(a, b):
 def multiply(a, b):
     """Returns the product of two numbers."""
     return a * b
+
+def sub(a,b):
+	"""Returns the subtraction of two numbers"""
+	return (a-b)
