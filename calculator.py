@@ -12,4 +12,4 @@ def multiply(a, b):
 
 def sub(a,b):
 	"""Returns the subtraction of two numbers"""
-	return (a-b)
+	return a-b
