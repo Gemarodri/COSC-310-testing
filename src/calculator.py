@@ -1,7 +1,16 @@
 """
-Simple calculator module to perform addition and multiplication.
+Simple calculator module to perform additions.
 """
 
-def add(a, b):
-    """Returns the sum of two numbers."""
+def add(a: float, b: float) -> float:
+    """
+    Return the sum of two numbers.
+
+    Parameters:
+        a (float): The first number.
+        b (float): The second number.
+
+    Returns:
+        float: The sum of a and b.
+    """
     return a + b
