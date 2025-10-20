@@ -14,3 +14,16 @@ def add(a: float, b: float) -> float:
         float: The sum of a and b.
     """
     return a + b
+
+def subtract(a: float, b: float) -> float:
+    """
+    Return the difference between two numbers.
+
+    Parameters:
+        a (float): The first number.
+        b (float): The second number.
+
+    Returns:
+        float: The result of subtracting b from a.
+    """
+    return a - b
