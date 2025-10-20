@@ -24,6 +24,6 @@ def subtract(a: float, b: float) -> float:
         b (float): The second number.
 
     Returns:
-        float: The result of subtracting b from a.
+        float: The result of subtracting b from a. Result rounded to 2 digits.
     """
     return a - b

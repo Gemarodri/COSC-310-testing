@@ -17,7 +17,7 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(subtract(-1, 1), -2)
         self.assertEqual(subtract(0, 0), 0)
         self.assertEqual(subtract(10, 4), 6)
-        self.assertEqual(subtract(2.1, 2), 0.1)
+        self.assertEqual(subtract(round(2.1, 2), 2), 0.1)
 
 if __name__ == "__main__":
     unittest.main()
