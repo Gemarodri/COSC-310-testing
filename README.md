@@ -1,1 +1,1 @@
-# COSC 310 Demo project
+# Simple app calculator demo prjoect
