@@ -1,1 +1,1 @@
-# Simple app calculator demo prjoect
+# Simple app calculator demo project
