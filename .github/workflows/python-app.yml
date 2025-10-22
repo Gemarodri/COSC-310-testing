@@ -1,8 +1,6 @@
 name: My Python calculator app
 
 on:
-  push:
-    branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
 
