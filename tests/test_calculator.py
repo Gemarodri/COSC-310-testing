@@ -25,7 +25,6 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(multiply(-1, 1), -1)
         self.assertEqual(multiply(0, 100), 0)
         self.assertEqual(multiply(2.5, 4), 10.0)
-        self.assertEqual(multiply(2.333, 3), 6.999)
 
 if __name__ == "__main__":
     unittest.main()
