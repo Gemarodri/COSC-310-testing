@@ -27,3 +27,16 @@ def subtract(a: float, b: float) -> float:
         float: The result of subtracting b from a. Result rounded to 2 digits.
     """
     return round(a - b,2)
+
+def multiply(a: float, b: float) -> float:
+    """
+    Return the product of two numbers.
+
+    Parameters:
+        a (float): The first number.
+        b (float): The second number.
+
+    Returns:
+        float: The product of a and b. Result rounded to 2 digits.
+    """
+    return round(a * b,2)

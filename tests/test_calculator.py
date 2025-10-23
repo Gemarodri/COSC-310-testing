@@ -1,5 +1,5 @@
 import unittest
-from src.calculator import add,subtract
+from src.calculator import add,subtract,multiply
 
 class TestCalculator(unittest.TestCase):
     """Test cases for calculator functions."""
@@ -18,6 +18,13 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(subtract(0, 0), 0)
         self.assertEqual(subtract(10, 4), 6)
         self.assertEqual(subtract(2.1, 2), 0.1)
+
+    def test_multiply(self):
+        """Test multiplication of two numbers."""
+        self.assertEqual(multiply(3, 7), 21)
+        self.assertEqual(multiply(-1, 1), -1)
+        self.assertEqual(multiply(0, 100), 0)
+        self.assertEqual(multiply(2.5, 4), 10.0)
 
 if __name__ == "__main__":
     unittest.main()
