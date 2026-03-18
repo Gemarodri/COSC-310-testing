@@ -52,4 +52,7 @@ def divide(a: float, b: float) -> float:
     Returns:
         float: The division of a and b. Result rounded to 2 digits.
     """
+    if b==0:
+        raise ValueError("Cannot divide by zero.")
+        
     return round(a/b,2)
