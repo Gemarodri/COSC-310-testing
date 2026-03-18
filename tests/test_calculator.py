@@ -1,5 +1,5 @@
 import unittest
-from src.calculator import add,subtract,multiply
+from src.calculator import add,subtract,multiply,divide
 
 class TestCalculator(unittest.TestCase):
     """Test cases for calculator functions."""
@@ -25,6 +25,14 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(multiply(-1, 1), -1)
         self.assertEqual(multiply(0, 100), 0)
         self.assertEqual(multiply(2.5, 4), 10.0)
+
+    def test_divide(self):
+        """Test Division of two numbers."""
+        self.assertEqual(divide(10, 5), 2)
+        self.assertEqual(divide(-6, 1), -6)
+        self.assertEqual(divide(0, 100), 0)
+        with self.assertRaises(ValueError):
+            divide(100, 0)
 
 if __name__ == "__main__":
     unittest.main()
